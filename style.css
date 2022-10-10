@@ -226,3 +226,74 @@ h6 {
 .hero_text .hero_btn .btn_two:hover {
     box-shadow: 0 3px 25px 0 rgba(0, 0, 0, .16);
 }
+
+
+/* Services Section */
+
+#wrapper {
+    margin: 5rem 7rem 10rem 7rem;
+}
+
+#wrapper .service {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    justify-content: center;
+    text-align: center;
+}
+
+#wrapper .service h6 {
+    margin-bottom: 6rem;
+}
+
+#wrapper .service_content {
+    display: flex;
+    flex-direction: row;
+    justify-content: space-between;
+    align-items: center;
+}
+
+#wrapper .service_content .box {
+    width: 60%;
+    display: flex;
+    flex-direction: row;
+    justify-content: space-between;
+    align-items: center;
+}
+
+#wrapper .service_content .box .box_one {
+    display: flex;
+    flex-direction: column;
+    justify-content: space-between;
+    width: 100%;
+}
+
+#wrapper .service_content .box .box_one .services {
+    display: flex;
+    flex-direction: column;
+    justify-content: flex-start;
+    align-items: flex-start;
+}
+
+#wrapper .service_content .box .box_one .services i {
+    font-size: 3rem;
+    margin-bottom: 10px;
+    color: #535cf1;
+}
+
+#wrapper .service_content .box .box_one .services .services_content {
+    display: flex;
+    flex-direction: column;
+    justify-content: flex-start;
+    align-items: flex-start;
+    text-align: justify;
+}
+
+
+#wrapper .service_content .service_img {
+    width: 40%;
+}
+
+#wrapper .service_content .service_img img {
+    width: 100%;
+}
