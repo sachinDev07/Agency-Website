@@ -277,6 +277,7 @@ h6 {
 
 #wrapper .service_content .box .box_one .services i {
     font-size: 3rem;
+    margin-top: 20px;
     margin-bottom: 10px;
     color: #535cf1;
 }
@@ -296,4 +297,131 @@ h6 {
 
 #wrapper .service_content .service_img img {
     width: 100%;
+}
+
+
+
+
+/* Price Section */
+
+#pricing {
+    margin: 5rem 7rem 10rem 7rem;
+    display: block;
+    text-align: center;
+}
+
+#pricing h6 {
+    margin-bottom: 6rem;                                   ;
+}
+
+#pricing .basic {
+    width: 355px;
+    height: 100%;
+    border: 1px solid #535cf1;
+    border-radius: 20px;
+}
+
+#pricing .basic h3 {
+    text-align: center;
+    font-weight: 300;
+    padding: 2.5rem 0;
+    background-color: #ecf0f1;
+    transition: all ease .6s;
+    border-top-right-radius: 20px;
+    border-top-left-radius: 20px;
+    clip-path: polygon(0 0, 100% 0, 100% 90%, 0 100%);
+    transition: .3s ease;
+}
+
+#pricing .basic:hover h3 {
+    background-image: linear-gradient(to right, #535cf1, #a147e4);
+    color: #fff;
+}
+
+#pricing .standard h3 {
+    background-image: linear-gradient(to right, #535cf1, #a147e4);
+    clip-path: polygon(0 0, 100% 0, 100% 90%, 0 100%);
+    color: #fff;
+}
+
+#pricing .table {
+    display: flex;
+    flex-direction: row;
+    justify-content: space-between;
+    align-items: center;
+}
+
+#pricing .basic .price {
+    display: block;
+    text-align: center;
+    padding: 20px 0;
+}
+
+#pricing .basic .price .sign {
+    display: inline-block;
+    font-size: 1.75rem;
+    font-weight: 400;
+    vertical-align: middle;
+}
+
+#pricing .basic .price .currency {
+    font-size: 3.75rem;
+    font-weight: 300;
+    letter-spacing: -2px;
+    line-height: 60px;
+    padding: 0;
+    vertical-align: middle;
+}
+
+#pricing .basic .price .cent {
+    display: inline-block;
+    font-size: 1.5rem;
+    font-weight: 400;
+    vertical-align: bottom;
+}
+
+#pricing .basic .price .month {
+    font-size: 1.125rem;
+    font-weight: 400;
+    letter-spacing: 3px;
+    vertical-align: bottom;
+}
+
+#pricing .basic ul li {
+    border-top: 1px solid #ccc;
+    padding: 18px 0;
+    border-bottom: 1px solid #ccc;
+    color: #7f8c8d;
+}
+
+#pricing .basic ul li i {
+    padding-right: 5px;
+    color: #535cf1;
+}
+
+#pricing .hero_btn {
+    margin: 2rem auto;
+    width: 10.625rem;
+}
+
+#pricing .hero_btn  a {
+    font-weight: normal;
+    font-size: 1.125rem;
+    border-radius: 50px;
+    outline: medium none;
+    border: 1px solid #2ecc71;
+    color: #1d1d1d;
+    transition: all ease .3s;
+}
+
+#pricing .standard .hero_btn a {
+    background-image: linear-gradient(to right, #535cf1, #a147e4);
+    color: #fff;
+    border: 1px solid #2ecc71;
+}
+
+#pricing .basic:hover .hero_btn a {
+    background-image: linear-gradient(to right, #535cf1, #a147e4);
+    color: #fff;
+    border: 1px solid #2ecc71;
 }
