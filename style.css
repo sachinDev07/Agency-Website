@@ -493,3 +493,69 @@ h6 {
     margin-left: 20px;
     border-radius: 50px;
 }
+
+
+
+
+/*  Contact Section */
+
+.contact {
+    margin: 5rem 7rem 10rem 7rem;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    text-align: center;
+}
+
+.contact h6 {
+    margin-bottom: 3rem;
+}
+
+.contact .form {
+    width: 70%;
+}
+
+.contact .form .first__row {
+    display: flex;
+    flex-direction: row;
+    justify-content: space-between;
+    align-items: center;
+    margin: 25px 0;
+}
+
+.contact .form .first__row input {
+    width: 47%;
+    height: 56px;
+    border: 1px solid #cbced1;
+    border-radius: 5px;
+    padding: 0 25px;
+    font-size: 16px;
+    outline: none;
+}
+
+.contact .form textarea {
+    width: 100%;
+    resize: none;
+    border: 1px solid #cbced1;
+    border-radius: 5px;
+    padding: 0 25px;
+    font-size: 16px;
+    outline: none;
+    font-family: "Poppins", sans-serif;
+    padding-top: 15px;
+}
+
+.contact .form .hero_btn {
+    margin: 2rem auto;
+    width: 170px;
+}
+
+.contact .form .hero_btn a {
+    background-image: linear-gradient(to right, #535cf1, #a147e4);
+    color: #fff;
+    border: none;
+    font-size: 1.125rem;
+    font-weight: normal;
+    outline: none;
+    border-radius: 50px;
+}
