@@ -559,3 +559,81 @@ h6 {
     outline: none;
     border-radius: 50px;
 }
+
+
+
+
+
+/* Footer Section */
+
+#footer {  
+    display: flex;
+    flex-direction: column;
+    background-color: rgb(247, 247, 247);
+}
+
+#footer .container {
+    margin: 5rem 7rem 5rem 7rem;
+}
+
+#footer .socia-media__container {
+    display: flex;
+    align-items: center;
+    text-align: center;    
+}
+
+#footer .socia-media__container ul {
+    display: flex;
+}
+
+#footer .socia-media__container ul li {
+    margin-left: 1rem;
+}
+
+#footer .socia-media__container ul li a {
+    color: #6c6c6c;
+}
+
+#footer .info__container {
+    display: flex;
+    justify-content: space-between;
+}
+
+#footer .info__container .box {
+    width: 20%;
+    margin-top: 1.5rem;
+}
+
+#footer .info__container .box p {
+    font-weight: 500;
+}
+
+#footer .info__container .box .details {
+    display: flex;
+    flex-direction: column;
+    margin-top: .8rem;
+}
+
+#footer .info__container .box .details a {
+    margin-bottom: .5rem;
+    color: rgb(112, 111, 111);
+    transition: all .3s;
+    display:inline-block;
+}
+
+#footer .info__container .box .details a:hover {
+    color: black;
+}
+
+#footer .info__container .box .details p {
+    color: rgb(112, 111, 111);
+}
+
+#footer .info__container .box .details input {
+    padding: 1em 2em;
+    border-radius: 20px;
+    outline: none;
+    border: none;
+    margin: .5rem 0 1rem 0;
+    background-color: rgb(234, 234, 234);
+}
