@@ -6,8 +6,19 @@
     padding: 0;
 }
 
+html {
+    scroll-behavior: smooth;
+}
+
 body {
     font-family: 'Poppins', sans-serif;
+}
+
+.offset::before {
+    display: block;
+    content: "";
+    height: 10rem;
+    margin-top: -2rem;
 }
 
 a {
