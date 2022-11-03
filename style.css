@@ -750,7 +750,27 @@ h6 {
         width: 80%;
     }
 
+    .contact {
+        margin: 5rem 7rem 5rem 7rem;
+    }
 
 
+    #footer .info__container {
+        flex-wrap: wrap;
+    }
+
+    #footer .info__container .box {
+        width: 33%;
+        margin-top: 1.5rem;
+    }
+
+    #footer .info__container .box {
+        width: 33%;
+    }
+
+}
+
+
+@media only screen and (max-width: 774px) {
 
 }
