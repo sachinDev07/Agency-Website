@@ -656,3 +656,41 @@ h6 {
     margin: .5rem 0 1rem 0;
     background-color: rgb(234, 234, 234);
 }
+
+
+
+
+
+
+/* ---------------- Media Queries ------------ */
+
+@media only screen and (max-width: 946px) {
+
+    #header {
+       padding: 1rem 1rem;
+    }
+
+    #header .navbar_social {
+        display: none;
+    }
+
+
+    /* Hero Section */
+
+
+    .hero_text {
+        width: 60%;
+    }
+
+    .hero_text h3 {
+        font-size: 33px;
+    }
+
+
+
+    
+
+
+
+
+}
