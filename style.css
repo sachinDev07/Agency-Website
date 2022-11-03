@@ -687,8 +687,39 @@ h6 {
     }
 
 
+    /* Service Section */
 
-    
+    #wrapper {
+        margin: 3rem 3rem 10rem 3rem;
+    }
+
+    #wrapper {
+        margin-bottom: 3rem;
+    }
+
+    #wrapper h6 {
+        margin-bottom: 3rem;
+    }
+
+    #wrapper .service_content {
+        flex-direction: column-reverse;
+        justify-content: center;
+    }
+
+    #wrapper .service_content .box {
+        width: 100%;
+    }
+
+    #wrapper .service_content .box .box_one {
+        justify-content: center;
+        align-items: center;
+        text-align: center;
+    }
+
+    #wrapper .service_content .service_img {
+        width: 100%;
+        margin-bottom: 5rem;
+    }
 
 
 
