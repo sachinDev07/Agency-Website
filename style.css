@@ -656,3 +656,72 @@ h6 {
     margin: .5rem 0 1rem 0;
     background-color: rgb(234, 234, 234);
 }
+
+
+
+
+
+
+/* ---------------- Media Queries ------------ */
+
+@media only screen and (max-width: 946px) {
+
+    #header {
+       padding: 1rem 1rem;
+    }
+
+    #header .navbar_social {
+        display: none;
+    }
+
+
+    /* Hero Section */
+
+
+    .hero_text {
+        width: 60%;
+    }
+
+    .hero_text h3 {
+        font-size: 33px;
+    }
+
+
+    /* Service Section */
+
+    #wrapper {
+        margin: 3rem 3rem 10rem 3rem;
+    }
+
+    #wrapper {
+        margin-bottom: 3rem;
+    }
+
+    #wrapper h6 {
+        margin-bottom: 3rem;
+    }
+
+    #wrapper .service_content {
+        flex-direction: column-reverse;
+        justify-content: center;
+    }
+
+    #wrapper .service_content .box {
+        width: 100%;
+    }
+
+    #wrapper .service_content .box .box_one {
+        justify-content: center;
+        align-items: center;
+        text-align: center;
+    }
+
+    #wrapper .service_content .service_img {
+        width: 100%;
+        margin-bottom: 5rem;
+    }
+
+
+
+
+}
