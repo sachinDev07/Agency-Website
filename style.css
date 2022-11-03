@@ -736,5 +736,17 @@ h6 {
 
 
 
+    /* Call to action Section */
+
+    .callToAct {
+        margin-bottom: 5rem;
+    }
+
+    .callToAct .parallax {
+        width: 80%;
+    }
+
+
+
 
 }
