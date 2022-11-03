@@ -723,5 +723,18 @@ h6 {
 
 
 
+    /* Pricing Section */
+
+    .pricing .table {
+        justify-content: space-evenly;
+        flex-wrap: wrap;
+    }
+
+    .pricing .basic {
+        margin-bottom: 3rem;
+    }
+
+
+
 
 }
