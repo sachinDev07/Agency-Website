@@ -814,6 +814,94 @@ h6 {
         font-weight: 600;
     }
 
+    .hero_text {
+        width: 80%;
+    }
+
+    .hero_text h6 {
+        font-size: 16px;
+    }
+
+    #wrapper {
+        margin: 3rem 1rem 10rem 1rem;
+    }
+
+    #wrapper .service h3 {
+        font-size: 33px;
+    }
+
+    #wrapper .service h6 {
+        font-size: 16px;
+        margin-bottom: 4rem;
+    }
+
+    #wrapper .service_content .service_img {
+        width: 85%;
+    }
+
+    #wrapper .service_content .service_img img {
+        width: 100%;
+    }
+
+    #pricing {
+        margin: 1rem 7rem 10rem 7rem;
+    }
+
+    #pricing h3 {
+        font-size: 33px;
+    }
+
+    #pricing h6 {
+        font-size: 16px;
+        margin-bottom: 4rem;
+    }
+
+    #pricing .table {
+        flex-direction: column;
+        justify-content: center;
+        flex-wrap: nowrap;
+    }
+
+    .callToAct {
+        margin: 5rem 2rem 10rem 2rem;
+    }
+
+    .callToAct .parallax {
+        width: 100%;
+    }
+
+    .callToAct .parallax h3 {
+        font-size: 33px;
+    }
+
+    .callToAct .parallax h6 {
+        font-size: 16px;
+    }
+
+    .contact h3 {
+        font-size: 33px;
+    }
+
+    .contact h6 {
+        font-size: 16px;
+    }
+
+    .callToAct .parallax .call__news input {
+        font-size: 16px;
+    }
+
+    .callToAct .parallax .call__news button {
+        font-size: 15px;
+    }
+
+    .contact .form {
+        width: 100%;
+    }
+
+    #footer .container {
+        margin: 5rem 3rem 5rem 3rem;
+    }
+
 
 
 
