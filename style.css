@@ -902,6 +902,112 @@ h6 {
         margin: 5rem 3rem 5rem 3rem;
     }
 
+}
+
+
+
+@media (max-width: 541px) {
+
+    .hero_text h3 {
+        font-size: 28px;
+        line-height: 45px;
+    }
+
+    .hero_text .hero_btn li a.main_btn {
+        margin-top: .7rem;
+        font-size: 15px;
+    }
+
+
+
+    #pricing {
+        margin: 1rem 1rem 10rem 1rem;
+    }
+
+    #wrapper {
+        margin: 3rem 1rem 0rem 1rem;
+    }
+
+    #wrapper .service {
+        display: flex;
+        flex-direction: column;
+        align-items: flex-start;
+        justify-content: flex-start;
+        text-align: start;
+    }
+
+    #wrapper .service_content .box {
+        width: 60%;
+        display: flex;
+        flex-direction: column;
+        justify-content: flex-start;
+        align-items: flex-start;
+    }
+
+    #wrapper .service_content {
+        display: flex;
+        flex-direction: column-reverse;
+        justify-content: space-between;
+        align-items: flex-start;
+    }
+
+    #wrapper .service_content .box .box_one {
+        align-items: flex-start;
+    }
+
+    .contact {
+        margin: 5rem 1rem 5rem 1rem;
+    }
+
+    #footer .container {
+        margin: 5rem 1rem 5rem 1rem;
+    }
+
+    #footer .info__container .box {
+        width: 50%;
+    }
+
+    .callToAct .parallax h3 {
+        font-size: 28px;
+        line-height: 45px;
+    }
+
+    .callToAct .parallax .call__news {
+        width: 300px;
+        height: 55px;
+        padding: 12px 0 12px 0;
+        display: block;
+        align-items: center;
+    }
+
+    .callToAct .parallax .call__news button {
+        font-size: 13px;
+        position: relative;
+        margin: 35px 0 0 0;
+        background: #fff;
+        color: #881601;
+    }
+
+    .contact .form {
+        width: 100%;
+    }
+
+    .contact .form .first__row {
+        display: flex;
+        flex-direction: column;
+        justify-content: flex-start;
+        align-items: flex-start;
+    }
+
+    .contact .form .first__row {
+        margin: 0 0;
+    }
+
+    .contact .form .first__row input {
+        width: 100%;
+        margin-bottom: 2rem;
+    }
+
 
 
 
