@@ -908,6 +908,10 @@ h6 {
 
 @media (max-width: 541px) {
 
+    #header .navbar_toggler {
+        top: 35px;
+    }
+
     .hero_text h3 {
         font-size: 28px;
         line-height: 45px;
@@ -964,7 +968,11 @@ h6 {
     }
 
     #footer .info__container .box {
-        width: 50%;
+        width: 90%;
+    }
+
+    .callToAct {
+        margin: 5rem 1rem 10rem 1rem;
     }
 
     .callToAct .parallax h3 {
@@ -1008,7 +1016,9 @@ h6 {
         margin-bottom: 2rem;
     }
 
-
+    #pricing .basic {
+        width: 308px;
+    }
 
 
 }
